@@ -1,0 +1,16 @@
+E:\Client_project\ArvindInstitute\BusinessLogic\BusinessLogic\bin\Release\BusinessLogic.dll
+E:\Client_project\ArvindInstitute\BusinessLogic\BusinessLogic\bin\Release\BusinessLogic.pdb
+E:\Client_project\ArvindInstitute\BusinessLogic\BusinessLogic\bin\Release\DataAccess.dll
+E:\Client_project\ArvindInstitute\BusinessLogic\BusinessLogic\bin\Release\DataAccess.pdb
+E:\Client_project\ArvindInstitute\BusinessLogic\BusinessLogic\bin\Release\DataAccess.xml
+E:\Client_project\ArvindInstitute\BusinessLogic\BusinessLogic\obj\Release\BusinessLogic.csprojResolveAssemblyReference.cache
+E:\Client_project\ArvindInstitute\BusinessLogic\BusinessLogic\obj\Release\BusinessLogic.dll
+E:\Client_project\ArvindInstitute\BusinessLogic\BusinessLogic\obj\Release\BusinessLogic.pdb
+E:\Client_project\LearnGerman\BusinessLogic\BusinessLogic\bin\Release\BusinessLogic.dll
+E:\Client_project\LearnGerman\BusinessLogic\BusinessLogic\bin\Release\BusinessLogic.pdb
+E:\Client_project\LearnGerman\BusinessLogic\BusinessLogic\bin\Release\DataAccess.dll
+E:\Client_project\LearnGerman\BusinessLogic\BusinessLogic\bin\Release\DataAccess.pdb
+E:\Client_project\LearnGerman\BusinessLogic\BusinessLogic\bin\Release\DataAccess.xml
+E:\Client_project\LearnGerman\BusinessLogic\BusinessLogic\obj\Release\BusinessLogic.csprojResolveAssemblyReference.cache
+E:\Client_project\LearnGerman\BusinessLogic\BusinessLogic\obj\Release\BusinessLogic.dll
+E:\Client_project\LearnGerman\BusinessLogic\BusinessLogic\obj\Release\BusinessLogic.pdb

@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "imgra", ".", "{00B93121-CF0A-4B0B-895A-DBC53EFDB33E}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{2f669b7c-f14e-49f8-9544-cff3de61e0ae}|BusinessLogic.dll;{0F75810C-7F31-4698-BEFC-97E7340E9E1F}|DataAccess.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_55607"
+		Debug.AspNetCompiler.PhysicalPath = "..\imgra\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_55607\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_55607"
+		Release.AspNetCompiler.PhysicalPath = "..\imgra\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_55607\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "55607"
+		SlnRelativePath = "..\imgra\"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLogic", "..\BusinessLogic\BusinessLogic\BusinessLogic.csproj", "{2F669B7C-F14E-49F8-9544-CFF3DE61E0AE}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DataAccess", "..\DataAccess\DataAccess.vbproj", "{0F75810C-7F31-4698-BEFC-97E7340E9E1F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00B93121-CF0A-4B0B-895A-DBC53EFDB33E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00B93121-CF0A-4B0B-895A-DBC53EFDB33E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00B93121-CF0A-4B0B-895A-DBC53EFDB33E}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{00B93121-CF0A-4B0B-895A-DBC53EFDB33E}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{2F669B7C-F14E-49F8-9544-CFF3DE61E0AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F669B7C-F14E-49F8-9544-CFF3DE61E0AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F669B7C-F14E-49F8-9544-CFF3DE61E0AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F669B7C-F14E-49F8-9544-CFF3DE61E0AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F75810C-7F31-4698-BEFC-97E7340E9E1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F75810C-7F31-4698-BEFC-97E7340E9E1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F75810C-7F31-4698-BEFC-97E7340E9E1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F75810C-7F31-4698-BEFC-97E7340E9E1F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

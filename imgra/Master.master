@@ -1,0 +1,339 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Master.master.cs" Inherits="Master" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="author" content="" />
+     <meta name="description"  content="Learning Coaching Center in Kurukshetra,Learning Coaching Center in Haryana,Learning Coaching Center in India" />
+     <meta name="description" content="German course online for Beginner - For Beginners and Advanced: 34 German lessons, German Grammar, Idioms, Quotes and 2 Online Tests." />
+      <meta name="description"  content="Learning German is easy and fun if you find the right method. Learn German online for free with my lessons or download a funny audio story." />
+    <meta name="keywords"  content="learn German, learn German online, how to learn German, how to speak German, German for beginners" />
+
+
+    <meta name="google-site-verification" content="LluwrBDjmV3u52L27Df3uaD9txi64FxSNjXerOKlWlc" />
+ 
+
+<link rel="canonical" href="http://learngermans.com/" />
+<!-- /all in one seo pack -->
+
+    
+    
+     <title>Welcome to Learn Germans..</title>
+
+    <!-- Fav Icon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="images\fav-icons\apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="images\fav-icons\favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="images\fav-icons\favicon-16x16.png" />
+
+    <!-- Bootstrap css -->
+    <link rel="stylesheet" href="css\bootstrap.min.css" />
+    <!-- Fontawesome css -->
+    <link rel="stylesheet" href="css\font-awesome.min.css" />
+    <!-- Swiper css -->
+    <link rel="stylesheet" href="css\swiper.min.css" />
+    <!-- Animate css -->
+    <link rel="stylesheet" href="css\animate.min.css" />
+    <!-- Venbox css -->
+    <link rel="stylesheet" href="css\venobox.css" />
+    <!-- Rateyo css -->
+    <link rel="stylesheet" href="css\rateyo.min.css" />
+    <!-- Flaticon css -->
+    <link rel="stylesheet" href="css\flaticon.css" />
+    <!-- Circle css -->
+    <link rel="stylesheet" href="css\circle.css" />
+    <!-- Main style css -->
+    <link rel="stylesheet" href="css\style.css" />
+
+</head>
+<body>
+    <form id="form1" runat="server">
+   <%--     <div id="loader-wrapper">
+            <div class="book">
+                <div class="book__page"></div>
+                <div class="book__page"></div>
+                <div class="book__page"></div>
+            </div>
+        </div>--%>
+        <!-- Header Part Start -->
+        <header class="header-part">
+            <div class="container">
+                <div class="row d-flex align-items-center">
+                    <div class="col-sm-7 col-6 text-left">
+                        <div class="header-item">
+                            <p class="pl-0"><i class="fa fa-phone"></i><span class="d-none d-md-inline-block">Phone:</span> <a href="callto::124784-6532">+91-95413-45125</a> <span class="d-none d-xl-inline-block">;</span> <a href="callto::124784-6532" class="d-none d-xl-inline-block">+91-78766-50958</a></p>
+                            <p class="d-none d-md-inline-block"><i class="fa fa-clock-o"></i><span class="d-none d-sm-inline-block">We are open:</span> Mn-Sat: 9 am-8 pm</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-5 col-6 text-left text-sm-right">
+                        <div class="header-icon">
+
+                            <a href="Login.aspx" target="_blank" class="btn-1 d-none d-md-inline-block">Login</a>
+                            <ul class="flat-list social-icon d-inline-block">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                <li><a href="#"><i class="fa fa-google"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Header Part End -->
+        <!-- Navigation Part Start -->
+
+        <nav id="navigation" class="navbar navbar-expand-lg nav-bg-white">
+            <div class="container">
+                <a class="navbar-brand" href="index.aspx" >
+                    <h2 style="font-size: 30px;
+color: #ffad18;
+font-weight: 600;
+letter-spacing: 2px;
+text-transform: uppercase;">Language Coaching Center</h2>
+                   <%-- <img src="images\logoOfLanguage.png" alt="Language Coaching Center" />--%></a>
+                <div class="collapse navbar-collapse" id="nav-list">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item custom-dropdown-box">
+                            <a href="index.aspx" >Home</a>
+                        </li>
+                        <li class="nav-item custom-dropdown-box">
+                            <a href="AboutUs.aspx">About Us</a>
+                         <%--   <ul class="dropdown-child-manu">
+                                <li><a href="AboutInstitute.aspx">About History</a></li>
+                            </ul>--%>
+                        </li>
+                        <li class="nav-item custom-dropdown-box">
+                            <a href="Gallery.aspx">Gallery</a>
+                        </li>
+                        <li class="nav-item custom-dropdown-box">
+                            <a href="AllLevels.aspx">Levels</a>
+                        </li>
+                        <li class="nav-item custom-dropdown-box">
+                            <a href="Courses.aspx">Courses</a>
+                        </li>
+                        <li class="nav-item custom-dropdown-box">
+                            <a href="Contact.aspx">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <button class="second-nav-toggler" type="button">
+                    <img src="images\menu.png" alt="" />
+                </button>
+            </div>
+        </nav>
+        <!-- mobile manu  -->
+        <div id="mobile-nav" data-prevent-default="true" data-mouse-events="true">
+            <div class="mobile-nav-box">
+                <div class="mobile-logo">
+                    <a href="index.aspx" class="mobile-main-logo">
+                        <img src="images\logoOfLanguage.png" alt="Mobile LOGO" /></a>
+                    <a href="#" class="manu-close">
+                        <img src="images\cancel.png" alt="" /></a>
+                </div>
+                <ul class="mobile-list-nav">
+                    <li><a href="#0" class="dropdownlink">HOME</a>
+                    </li>
+                    <li class="nav-item custom-dropdown-box">
+                        <a href="AboutUs.aspx">About Us</a>
+                      <%--  <ul class="dropdown-child-manu">
+                            <li><a href="AboutInstitute.aspx">About History</a></li>
+                        </ul>--%>
+                    </li>
+                    <li>
+                        <a href="Gallery.aspx" class="dropdownlink">Gallery</a>
+                    </li>
+                    <li>
+                        <a href="Gallery.aspx" class="dropdownlink">Levels</a>
+                    </li>
+                    <li>
+                        <a href="Courses.aspx" class="dropdownlink">Courses</a>
+                    </li>
+                    <li>
+                        <a href="Contact.aspx" class="dropdownlink">Contact</a>
+                    </li>
+                </ul>
+                <%--<div class="achivement-blog">
+                    <ul class="flat-list">
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-facebook"></i>
+                                <h6>Facebook</h6>
+                                <span class="counter">12546</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-twitter"></i>
+                                <h6>Twiter</h6>
+                                <span class="counter">12546</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-pinterest"></i>
+                                <h6>Pinterest</h6>
+                                <span class="counter">12546</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>--%>
+            </div>
+        </div>
+        <!-- Navigation Part End -->
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+        <!-- Footer Part Start -->
+        <footer class="footer-part footer-bg-dark">
+            <div class="footer-widget">
+                <div class="container">
+                    <div class="row">
+                        <!-- Single widget-->
+                        <div class="col-12 col-sm-6 col-lg-3">
+                            <div class="footer-logo">
+                                 <h2>Language Coaching Center </h2>
+                            
+                                <p>Language Coaching Center is India’s most experienced specialist service provider of comprehensive and unbiased overseas education counselling.</p>
+                                <ol class="flat-list">
+                                    <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="https://twitter.com/login?lang=en" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                </ol>
+                            </div>
+                        </div>
+                        <!-- Single widget-->
+                        <div class="col-12 col-sm-6 col-lg-3 mt-4 mt-sm-0">
+                            <div class="footer-widget-item">
+                                <h3>Quick Links</h3>
+                                <ul class="footer-widget-link">
+                                    <li><a href="Index.aspx"><i class="fa fa-angle-double-right"></i>Home</a></li>
+                                    <li><a href="AboutUs.aspx"><i class="fa fa-angle-double-right"></i>About Us</a></li>
+                                    <li><a href="Gallery.aspx"><i class="fa fa-angle-double-right"></i>Gallery</a></li>
+                                    <li><a href="AllLevels.aspx"><i class="fa fa-angle-double-right"></i>Lavels</a></li>
+                                    <li><a href="Courses.aspx"><i class="fa fa-angle-double-right"></i>Courses</a></li>
+                                    <li><a href="Contact.aspx"><i class="fa fa-angle-double-right"></i>Contact Us</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Single widget-->
+                        <div class="col-12 col-sm-6 col-lg-3 mt-4 mt-lg-0">
+                            <div class="footer-widget-item">
+                                <h3>Open Time</h3>
+                                <ul class="footer-widget-office-time">
+                                    <li>
+                                        <p>Opening Day:</p>
+                                        <p>Monday - Saturday: 9am to 8pm</p>
+
+                                    </li>
+                                    <li>
+                                        <p>Vacation:</p>
+                                        <p>All Sunday Day</p>
+                                        <p>All Vacation Holiday</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Single widget-->
+                        <div class="col-12 col-sm-6 col-lg-3 mt-4 mt-lg-0">
+                            <div class="footer-widget-item subscribe-widget">
+                                <h3>Subscribe</h3>
+                                <p>Enter  your email and get latest updates and offers subscribe us</p>
+                                <div id="subscribe-form">
+                                    <input placeholder="Your Email ..." type="text" />
+                                    <button><i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Footer contact info -->
+                    <div class="row footer-icon-area">
+                        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
+                            <div class="sin-footer-icon">
+                                <div class="footer-icon">
+                                    <a href="#"><i class="fa fa-phone"></i></a>
+                                </div>
+                                <div class="footer-icon-text">
+                                    <h4>call us</h4>
+                                    <span>+91-95413-45125</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
+                            <div class="sin-footer-icon">
+                                <div class="footer-icon">
+                                    <a href="#"><i class="fa fa-envelope"></i></a>
+                                </div>
+                                <div class="footer-icon-text">
+                                    <h4>Email Us</h4>
+                                    <span>sailesh789@gmail.com</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-4  col-sm-4">
+                            <div class="sin-footer-icon">
+
+                                <div class="footer-icon">
+                                    <a href="#"><i class="fa fa-home"></i></a>
+                                </div>
+                                <div class="footer-icon-text">
+                                    <h4>Location</h4>
+                                    <span>Language Coaching Centre</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Copy right Start -->
+            <div class="footer-copyright">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <p>Copyright ©<span> 2018</span> | All rights reserved |  Sonra by <a href="images/Sonraitsoluions.jpg" target="_blank">SonraItsolutions</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Footer Part End -->
+
+        <div class="backtotop">
+            <i class="fa fa-angle-up backtotop_btn"></i>
+        </div>
+
+        <!--js Library  -->
+        <script src="js\jquery.min.js"></script>
+        <!--Popper js  -->
+        <script src="js\popper.min.js"></script>
+        <!--Bootstrap min js  -->
+        <script src="js\bootstrap.min.js"></script>
+        <!--Plugins   -->
+        <script src="js\plugins.js"></script>
+        <!--Gmap3 js  -->
+        <script src="js\gmap3.min.js"></script>
+        <!--Knob Js  -->
+        <script src="js\jquery.knob.min.js"></script>
+        <!--Appear Js  -->
+        <script src="js\jquery.appear.js"></script>
+        <!--Swipper Runner  -->
+        <script src="js\swiperRunner.min.js"></script>
+        <!--Google map api -->
+        <!-- -->
+        <!--Custom js  -->
+        <script src="js\custom.js"></script>
+    </form>
+</body>
+</html>
